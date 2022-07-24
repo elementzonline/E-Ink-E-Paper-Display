@@ -17,6 +17,6 @@ Sample codes and Documents for Elementz E-Paper display
   
   ![Arduino IDE](Docs/Pictures/Arduino_IDE_Libraries_E-Ink_1.54.png)
   
-Website: [ElementzOnline](https://elementzonline.com)
-Blog: [ElementzOnline Blog](https://www.elementzonline.com/blog/elementzonline-154-inch-epaper-display-tricolour-esp32)
-Video: [Demo Video](https://www.youtube.com/watch?v=Ye-CtWMQxFQ&ab_channel=ElementzEngineersGuild)
+* Website: [ElementzOnline](https://elementzonline.com)
+* Blog: [ElementzOnline Blog](https://www.elementzonline.com/blog/elementzonline-154-inch-epaper-display-tricolour-esp32)
+* Video: [Demo Video](https://www.youtube.com/watch?v=Ye-CtWMQxFQ&ab_channel=ElementzEngineersGuild)
