@@ -115,12 +115,6 @@ void loop()
   delay(8000);
 
   /*
-    Render Display
-  */
-  display.display();
-  delay(8000);
-
-  /*
     Rectangles
   */
   display.clearBuffer();
@@ -133,4 +127,3 @@ void loop()
   display.display();
   delay(8000);
 }
-
