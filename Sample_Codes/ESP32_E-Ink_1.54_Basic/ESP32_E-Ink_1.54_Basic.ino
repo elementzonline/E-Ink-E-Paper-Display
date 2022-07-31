@@ -2,7 +2,7 @@
   Example Program for a Tricolor E-Ink Display
   with 200*200px Resolution & 1.54" Display
 
-  Last Edited Date: July 22, 2022
+  Last Edited Date: July 31, 2022
 */
 
 #include <Arduino.h>
@@ -72,16 +72,20 @@ void loop()
     Bitmap
   */
   display.clearBuffer();
+  display.setTextColor(EPD_RED);
   display.drawBitmap(
-      (display.width() - LOGO_WIDTH) / 2,
+      0,
       (int)((display.height() - LOGO_HEIGHT) / 4),
-      Bitmap_Elementz_Logo_RB, LOGO_WIDTH, LOGO_HEIGHT, 1);
+      Bitmap_Elementz_Logo_E, LOGO_WIDTH_E, LOGO_HEIGHT, 2);
+  display.drawBitmap(
+      LOGO_WIDTH_E,
+      (int)((display.height() - LOGO_HEIGHT) / 4),
+      Bitmap_Elementz_Logo_lementz, LOGO_WIDTH, LOGO_HEIGHT, 1);
 
-  display.setCursor((display.width() - 144) / 2 + 12, (display.height() / 2 + 36));
+  display.setCursor((display.width() - 144) / 2 + 12, (display.height() / 2) + 36);
   display.setTextSize(2);
   display.setTextColor(EPD_RED);
   display.print("Tri ");
-
   display.setTextColor(EPD_BLACK);
   display.print("Color!");
 
@@ -111,20 +115,6 @@ void loop()
   delay(8000);
 
   /*
-    Lines
-  */
-  display.clearBuffer();
-  for (int16_t i = 0; i < display.width(); i += 4)
-  {
-    display.drawLine(0, 0, i, display.height() - 1, EPD_BLACK);
-  }
-
-  for (int16_t i = 0; i < display.height(); i += 4)
-  {
-    display.drawLine(display.width() - 1, 0, 0, i, EPD_RED);
-  }
-
-  /*
     Render Display
   */
   display.display();
@@ -143,3 +133,4 @@ void loop()
   display.display();
   delay(8000);
 }
+
