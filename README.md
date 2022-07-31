@@ -1,13 +1,18 @@
 # E-Ink-E-Paper-Display
 Sample codes and Documents for Elementz E-Paper display
 
-## 1.54 Inch adapter board
+<img src="Docs/Pictures/1x54-E-Ink/1x54-E-Ink-Display_V1_01.JPG" width="100%">
 
-[![1.54 Inch Adapter board](https://github.com/elementzonline/E-Ink-E-Paper-Display/blob/main/Docs/Pictures/EInch_1.54_inch_3D_V1.png)](https://github.com/elementzonline/E-Ink-E-Paper-Display/blob/main/Docs/Pictures/EInch_1.54_inch_3D_V1.png)
+## 1.54" E-Paper Display
 
-## E-paper Display
+| | | |
+|:---:|:---:|:---:|
+<img src="Docs/Pictures/1x54-E-Ink/1x54-E-Ink-Display_V1_02.JPG" width="100%"> | <img src="Docs/Pictures/1x54-E-Ink/1x54-E-Ink-Display_V1_04.JPG" width="100%"> | <img src="Docs/Pictures/1x54-E-Ink/1x54-E-Ink-Display_V1_06.JPG" width="100%">
 
-[![1.54 Display with Adapter board](https://github.com/elementzonline/E-Ink-E-Paper-Display/blob/main/Docs/Pictures/Eink_display.jpg)](https://github.com/elementzonline/E-Ink-E-Paper-Display/blob/main/Docs/Pictures/Eink_display.jpg)
+
+## 1.54" Adapter Board
+
+![1.54 Inch Adapter board](Docs/Pictures/EInch_1.54_inch_3D_V1.png)
 
 ### Dependencies
 - Arduino Libraries
